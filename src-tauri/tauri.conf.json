@@ -1,0 +1,31 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "wally-timetable",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false
+    },
+    "windows": [
+      {
+        "title": "Course Schedule",
+        "width": 1024,
+        "height": 768,
+        "decorations": true,
+        "transparent": false
+      }
+    ],
+    "bundle": {
+      "active": true,
+      "identifier": "com.waliwuao.timetable",
+      "targets": "all"
+    }
+  }
+}
