@@ -1,6 +1,6 @@
 # 🗓️ Wally-Timetable (Tauri Edition)
 
-**Wally-Timetable** 是一款基于 **Tauri (Rust)** + **Vue 3** 开发的高性能、高颜值桌面课程表工具。它是原有 `eframe` 版本的全面升级版，不仅继承了精致的半透明卡片风格，还引入了强大的**交互式编辑**功能。
+**Wally-Timetable** 是一款基于 **Tauri (Rust)** + **Vue 3** 开发的高性能、高颜值桌面课程表工具。它是原有 `eframe` 版本的全面升级版，不仅继承了精致的半透明卡片风格，还引入了**交互式编辑**功能。
 
 ---
 
